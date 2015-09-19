@@ -1,1 +1,3 @@
 # ios_app_UISearchBar
+IOS自带的UISearchDisplayController也可以实现这种功能。它整合了UISearchBar和UITableView，并且内部提供了良好的封装，只要利用该控件就可轻松达到的效果是在搜索条（UISearchBar）下面动态的显示了一个UITableView,并让该控件加载、显示查询结果。
+代码大致相同，不在需要调用[self.table reload];
