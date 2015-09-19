@@ -10,7 +10,7 @@
 
 @interface ViewController : UIViewController <UITableViewDataSource,UITableViewDelegate,UISearchBarDelegate>
 
-@property (weak, nonatomic) IBOutlet UITableView *table;
+@property (strong, nonatomic) IBOutlet UITableView *table;
 
 @end
 
