@@ -78,16 +78,7 @@
     [self filterBySubstring:searchText];
     
 }
-//自定义方法
-//-(void) filterBySubstring:(NSString*) subStr
-//{
-//    _isSearch = YES;
-//    //定义搜索谓词                                           SELF CONTAINS[c]
-//    NSPredicate* pred = [NSPredicate predicateWithFormat:@"SELE CONTAINS[c] %@",subStr];
-//    //使用谓词过滤NSArray
-//    _searchData = [_tableData filteredArrayUsingPredicate:pred];
-//    [self.table reloadData];
-//}
+
 - (void) filterBySubstring:(NSString*) subStr
 {
     // 设置为搜索状态
